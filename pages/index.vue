@@ -11,6 +11,11 @@ rs taylor
 food
 
 music - whats the message?
+local / fresh / authentic
+
+font? sign?
+
+
 -->
 
 <template>
