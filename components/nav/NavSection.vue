@@ -18,9 +18,9 @@
         </div>
       </div>
       <div class="nav-menu" :class="{ 'menu-active': menuActive }">
-        <h3 class="menu-item">Nav</h3>
+        <h3 class="menu-item">Home</h3>
         <h3 class="menu-item">Menu</h3>
-        <h3 class="menu-item">Items</h3>
+        <h3 class="menu-item">Contact Us</h3>
       </div>
     </div>
   </section>
@@ -38,7 +38,6 @@ export default {
     activateMenu() {
       if (this.menuActive === false) {
         this.menuActive = true
-        console.log('trigger')
       } else {
         this.menuActive = false
       }
@@ -50,20 +49,21 @@ export default {
 <style lang="scss" scoped>
 .nav-section {
   width: 100%;
-  padding: 10px 20px;
+  padding: 20px 20px;
   position: absolute;
   top: 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  z-index: 2;
 }
 
 .nav-button {
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  border: 3px solid #fff;
+  border: 3px solid bisque;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -77,7 +77,7 @@ export default {
   .nav-button-line {
     width: 30px;
     height: 8px;
-    background-color: #fff;
+    background-color: bisque;
   }
 
   #horizontal,
@@ -130,11 +130,15 @@ export default {
   position: absolute;
   right: -136px;
   opacity: 0;
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   .menu-item {
     margin-right: 10px;
-    color: #fff;
+    color: bisque;
     font-size: 20px;
     text-shadow: 2px 2px 2px #000;
+    cursor: pointer;
     &:hover {
       text-decoration: underline;
       transition: 0.5s;
@@ -147,5 +151,14 @@ export default {
   opacity: 1;
   right: 70px;
   transition: 1s;
+}
+
+@media only screen and (min-width: 900px) {
+  .nav-menu {
+    .menu-item {
+      font-size: 30px;
+      margin-right: 20px;
+    }
+  }
 }
 </style>

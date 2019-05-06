@@ -24,7 +24,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [{ src: '~/assets/css/global.scss', lang: 'scss' }],
+
+  styleResources: {
+    scss: ['./assets/css/variables.scss', './assets/css/mixins.scss']
+  },
 
   /*
    ** Plugins to load before mounting the App

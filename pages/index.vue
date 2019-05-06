@@ -8,14 +8,8 @@ common roots
 fiddlehead
 rs taylor
 
-food
-
-music - whats the message?
-local / fresh / authentic
-
-font? sign?
-
-
+font--
+comfortaa
 -->
 
 <template>
@@ -24,6 +18,9 @@ font? sign?
     <header-section />
     <intro-section />
     <local-flavor-section />
+    <coffee-section />
+    <beer-section />
+    <footer-section />
   </section>
 </template>
 
@@ -32,13 +29,19 @@ import NavSection from '~/components/nav/NavSection.vue'
 import HeaderSection from '~/components/header/HeaderSection.vue'
 import IntroSection from '~/components/introduction/IntroSection.vue'
 import LocalFlavorSection from '~/components/local-flavor/LocalFlavorSection.vue'
+import CoffeeSection from '~/components/coffee/CoffeeSection.vue'
+import BeerSection from '~/components/beer/BeerSection.vue'
+import FooterSection from '~/components/footer/FooterSection.vue'
 
 export default {
   components: {
     NavSection,
     HeaderSection,
     IntroSection,
-    LocalFlavorSection
+    LocalFlavorSection,
+    CoffeeSection,
+    BeerSection,
+    FooterSection
   }
 }
 </script>
