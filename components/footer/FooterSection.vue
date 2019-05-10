@@ -34,10 +34,6 @@ section {
   padding: 20px;
 }
 
-div {
-  outline: 1px solid reD;
-}
-
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -64,6 +60,18 @@ div {
       color: bisque;
       transition: 0.5s;
     }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .flex-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .links {
+    flex-direction: column;
+    text-align: Center;
   }
 }
 </style>
