@@ -3,7 +3,7 @@
     <div class="flex-container">
       <div class="location flex-block">
         <p>171 Main Street<br />Hudson Falls NY 12839</p>
-        <phone>518-555-555</phone>
+        <phone>518-555-555</phone><br />
         <mail-to>drake@hudsonriverbrewhouse.com</mail-to>
       </div>
       <div class="hours flex-block">
@@ -37,6 +37,8 @@ section {
 .flex-container {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .flex-block {
@@ -66,7 +68,7 @@ section {
 @media only screen and (min-width: 900px) {
   .flex-container {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
   .links {
