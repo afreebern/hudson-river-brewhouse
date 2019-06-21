@@ -15,7 +15,7 @@
 
 <style lang="scss" scoped>
 section {
-  background-image: url('~assets/beer-wall-three.jpg');
+  // background-image: url('~assets/beer-wall-three.jpg');
   background-size: cover;
   background-position: 50%;
   height: 100vh;
