@@ -10,28 +10,28 @@
 
       <div class="flex-container">
         <div class="flex-block">
-          <img src="~/assets/common-roots.png" alt="common roots logo" />
+          <img src="/assets/common-roots.png" alt="common roots logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/fiddlehead.png" alt="fiddlehead logo" />
+          <img src="/assets/fiddlehead.png" alt="fiddlehead logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/mean-max.png" alt="mean max logo" />
+          <img src="/assets/mean-max.png" alt="mean max logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/paradox.png" alt="paradox logo" />
+          <img src="/assets/paradox.png" alt="paradox logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/adirondack.png" alt="adirondack logo" />
+          <img src="/assets/adirondack.png" alt="adirondack logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/battle-hill.png" alt="battle hill logo" />
+          <img src="/assets/battle-hill.png" alt="battle hill logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/northway.jpg" alt="northway logo" />
+          <img src="/assets/northway.jpg" alt="northway logo" />
         </div>
         <div class="flex-block">
-          <img src="~/assets/taylor.jpg" alt="taylor logo" />
+          <img src="/assets/taylor.jpg" alt="taylor logo" />
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ section {
   padding-top: 20px;
 }
 .banner {
-  background-image: url('~assets/beer-shot.jpg');
+  background-image: url('/assets/beer-shot.jpg');
   background-attachment: scroll;
   background-position: center;
   background-size: cover;

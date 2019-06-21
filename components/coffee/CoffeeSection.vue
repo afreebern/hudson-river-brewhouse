@@ -17,7 +17,7 @@
 section {
   color: #fff;
   background-color: #000;
-  background-image: url('~assets/coffee-cup.jpg');
+  background-image: url('/assets/coffee-cup.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

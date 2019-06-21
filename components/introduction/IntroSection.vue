@@ -25,7 +25,7 @@ section {
   height: 600px;
   min-width: 320px;
   width: 600px;
-  background-image: url('~assets/building-two.jpg');
+  background-image: url('/assets/building-two.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotate(90deg);

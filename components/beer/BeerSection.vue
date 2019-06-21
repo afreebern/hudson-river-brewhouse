@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
 section {
-  background-image: url('~assets/beer-taps.jpg');
+  background-image: url('/assets/beer-taps.jpg');
   min-height: 500px;
   width: 100%;
   background-size: cover;
