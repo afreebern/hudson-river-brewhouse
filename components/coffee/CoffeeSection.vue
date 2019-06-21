@@ -48,9 +48,12 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  p {
-    max-width: 900px;
+    h2 {
+      font-size: 72px;
+    }
+    p {
+      max-width: 900px;
+    }
   }
 }
 </style>

@@ -128,7 +128,7 @@ export default {
   flex-direction: row;
   justify-content: space-around;
   position: absolute;
-  right: -136px;
+  right: 0px;
   opacity: 0;
   font-family: mr-eaves-sans, sans-serif;
   font-weight: 400;
