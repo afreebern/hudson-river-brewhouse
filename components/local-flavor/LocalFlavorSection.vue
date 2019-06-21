@@ -68,7 +68,7 @@ section {
   padding-top: 20px;
 }
 .banner {
-  background-image: url('/assets/beer-shot.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137048/hrbh/beer-shot_vlbmc0.jpg');
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
