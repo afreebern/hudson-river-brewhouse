@@ -15,7 +15,7 @@
 
 <style lang="scss" scoped>
 section {
-  background-image: url('/assets/beer-wall-three.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137054/hrbh/beer-wall-three_l7avdf.jpg');
   background-size: cover;
   background-position: 50%;
   height: 100vh;

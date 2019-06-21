@@ -25,7 +25,7 @@ section {
   height: 600px;
   min-width: 320px;
   width: 600px;
-  background-image: url('/assets/building-two.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137056/hrbh/building-two_h2rb0w.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotate(90deg);

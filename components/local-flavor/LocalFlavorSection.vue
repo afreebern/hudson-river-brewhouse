@@ -10,28 +10,52 @@
 
       <div class="flex-container">
         <div class="flex-block">
-          <img src="/assets/common-roots.png" alt="common roots logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137057/hrbh/common-roots_tqvytz.png"
+            alt="common roots logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/fiddlehead.png" alt="fiddlehead logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137047/hrbh/fiddlehead_wdqzx5.png"
+            alt="fiddlehead logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/mean-max.png" alt="mean max logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137050/hrbh/mean-max_ytbhjz.png"
+            alt="mean max logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/paradox.png" alt="paradox logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137052/hrbh/paradox_ougk3q.png"
+            alt="paradox logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/adirondack.png" alt="adirondack logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137045/hrbh/adirondack_rd2gdp.png"
+            alt="adirondack logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/battle-hill.png" alt="battle hill logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137045/hrbh/battle-hill_s7n7pk.png"
+            alt="battle hill logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/northway.jpg" alt="northway logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137051/hrbh/northway_vrix8x.jpg"
+            alt="northway logo"
+          />
         </div>
         <div class="flex-block">
-          <img src="/assets/taylor.jpg" alt="taylor logo" />
+          <img
+            src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137074/hrbh/taylor_fqzh3h.jpg"
+            alt="taylor logo"
+          />
         </div>
       </div>
     </div>

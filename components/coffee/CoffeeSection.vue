@@ -17,7 +17,7 @@
 section {
   color: #fff;
   background-color: #000;
-  background-image: url('/assets/coffee-cup.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137052/hrbh/coffee-cup_gdettc.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

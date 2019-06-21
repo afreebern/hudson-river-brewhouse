@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
 section {
-  background-image: url('/assets/beer-taps.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137050/hrbh/beer-taps_qw1thr.jpg');
   min-height: 500px;
   width: 100%;
   background-size: cover;
