@@ -17,7 +17,7 @@
 section {
   color: #fff;
   background-color: #000;
-  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137052/hrbh/coffee-cup_gdettc.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/f_auto/q_auto/v1561140338/hrbh/How_to_make_a_coffee._1_gqzhji.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

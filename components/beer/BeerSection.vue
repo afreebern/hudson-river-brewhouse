@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
 section {
-  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/v1561137050/hrbh/beer-taps_qw1thr.jpg');
+  background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/f_auto/q_auto/v1561140292/hrbh/Bartender_filling_up_a_dark_with_craft_beer_a_pint_glass_1_euw3gp.jpg');
   min-height: 500px;
   width: 100%;
   background-size: cover;
