@@ -19,7 +19,6 @@ section {
   background-color: #000;
   background-image: url('https://res.cloudinary.com/dipgyyv6a/image/upload/f_auto/q_auto/v1561140338/hrbh/How_to_make_a_coffee._1_gqzhji.jpg');
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
@@ -43,6 +42,7 @@ section {
 @media only screen and (min-width: 900px) {
   section {
     min-height: 500px;
+    background-attachment: fixed;
     background-position-x: unset;
     display: flex;
     justify-content: center;
