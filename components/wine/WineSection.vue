@@ -24,7 +24,6 @@ section {
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position-x: -220px;
   color: #fff;
   padding: 20px;
@@ -51,6 +50,7 @@ p {
 
 @media only screen and (min-width: 900px) {
   section {
+    background-attachment: fixed;
     background-position-x: 200px;
     justify-content: flex-start;
     padding-left: 40px;

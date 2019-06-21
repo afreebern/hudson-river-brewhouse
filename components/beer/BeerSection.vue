@@ -17,7 +17,6 @@ section {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,6 +42,9 @@ p {
 }
 
 @media only screen and (min-width: 900px) {
+  section {
+    background-attachment: fixed;
+  }
   h2 {
     font-size: 72px;
   }
