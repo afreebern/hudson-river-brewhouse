@@ -1,18 +1,18 @@
 <template>
   <section>
-    <div class="social-icons">
-      <img
-        src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561141941/hrbh/facebook-bisque_pime4e.svg"
-        alt="facebook"
-      />
-      <img
-        src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561141941/hrbh/twitter-bisque_wjlz2b.svg"
-        alt="twitter"
-      />
-      <img
-        src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561141941/hrbh/insta-bisque_sus9xx.svg"
-        alt="instagram"
-      />
+    <div ref="social" @scroll="addBackdrop()" class="social-icons">
+      <a target="_blank" href="https://www.facebook.com/HudsonRiverBrewhouse/">
+        <img
+          src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561141941/hrbh/facebook-bisque_pime4e.svg"
+          alt="facebook"
+        />
+      </a>
+      <a target="_blank" href="https://www.instagram.com/hudsonriverbrewhouse/">
+        <img
+          src="https://res.cloudinary.com/dipgyyv6a/image/upload/v1561141941/hrbh/insta-bisque_sus9xx.svg"
+          alt="instagram"
+        />
+      </a>
     </div>
     <div class="section-wrap">
       <div>
@@ -28,6 +28,31 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      scrolled: false
+    }
+  },
+  methods: {
+    handleScroll() {
+      if ((this.scrolled = window.scrollY > 0)) {
+        this.$refs.social.classList.add('backdrop')
+      } else {
+        this.$refs.social.classList.remove('backdrop')
+      }
+    }
+  },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .section-wrap {
@@ -69,19 +94,32 @@ h2 {
 }
 
 .social-icons {
-  margin: 10px 0 0 20px;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 0px;
   z-index: 5;
+  transition: 0.5s;
+  padding: 5px;
   img {
     height: 40px;
     margin-right: 10px;
-    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
     &:hover {
-      height: 50px;
       cursor: pointer;
     }
+  }
+}
+.backdrop {
+  background-color: rgba(178, 34, 34, 0.4);
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  img {
+    margin-bottom: 5px;
   }
 }
 

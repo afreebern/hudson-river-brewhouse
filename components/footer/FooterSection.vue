@@ -57,10 +57,10 @@ section {
   a {
     padding: 0 20px;
     color: #fff;
-    text-decoration: underline;
     &:hover {
       color: bisque;
       transition: 0.5s;
+      text-decoration: underline;
     }
   }
 }
