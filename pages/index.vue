@@ -21,6 +21,8 @@ comfortaa
     <coffee-section />
     <beer-section />
     <wine-section />
+    <guitar-section />
+    <music-section />
     <footer-section />
   </section>
 </template>
@@ -33,6 +35,8 @@ import LocalFlavorSection from '~/components/local-flavor/LocalFlavorSection.vue
 import CoffeeSection from '~/components/coffee/CoffeeSection.vue'
 import BeerSection from '~/components/beer/BeerSection.vue'
 import WineSection from '~/components/wine/WineSection.vue'
+import GuitarSection from '~/components/music/GuitarSection.vue'
+import MusicSection from '~/components/music/MusicSection.vue'
 import FooterSection from '~/components/footer/FooterSection.vue'
 
 export default {
@@ -44,6 +48,8 @@ export default {
     CoffeeSection,
     BeerSection,
     WineSection,
+    GuitarSection,
+    MusicSection,
     FooterSection
   }
 }

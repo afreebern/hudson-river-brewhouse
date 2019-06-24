@@ -59,6 +59,7 @@ section {
     color: #fff;
     &:hover {
       color: bisque;
+      transform: rotate(10deg);
       transition: 0.5s;
       text-decoration: underline;
     }
