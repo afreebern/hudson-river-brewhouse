@@ -25,7 +25,6 @@ section {
 
 .info-box {
   max-width: 1000px;
-  outline: 1px solid RED;
   margin: 0 auto;
 }
 h2 {
